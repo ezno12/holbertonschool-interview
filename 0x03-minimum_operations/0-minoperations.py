@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+
 """
 module containing function to calc min operations
 """
@@ -25,9 +26,10 @@ def prime_numbers(n):
     """
     calc
     """
+
     if n < 2:
         return []
-    
+
     prime = []
     i = 2
     while i <= n:
