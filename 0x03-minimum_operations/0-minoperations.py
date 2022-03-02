@@ -25,7 +25,7 @@ def prime_numbers(n):
     """
     if n < 2:
         return []
-    
+
     prime = []
     i = 2
     while i <= n:
