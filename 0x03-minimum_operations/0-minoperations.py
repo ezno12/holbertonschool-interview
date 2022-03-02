@@ -11,7 +11,6 @@ def minOperations(n):
     """
     calc min operations
     """
-
     if n <= 1:
         return 0
     else:
@@ -26,7 +25,6 @@ def prime_numbers(n):
     """
     calc
     """
-
     if n < 2:
         return []
 
