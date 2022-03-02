@@ -4,8 +4,6 @@
 module containing function to calc min operations
 """
 
-import re
-
 
 def minOperations(n):
     """
