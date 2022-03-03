@@ -20,7 +20,7 @@ int is_palindrome(unsigned long n)
             return (0);
         }
         n = ( n % div) / 10;
-        div = div / 10;
+        div = div / 100;
     }
     return (1);
 }
