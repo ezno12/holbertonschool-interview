@@ -50,4 +50,3 @@ skiplist_t *linear_skip(skiplist_t *head, int value)
 	}
 	return (search_skip(ben, end, value));
 }
-Footer
